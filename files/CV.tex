@@ -1,0 +1,216 @@
+% !TEX program = pdflatex
+%-------------------------
+% Resume in Latex
+% Author : Gabriel Sison
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\ifdefined\pdfgentounicode\input{glyphtounicode}\fi
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\ifdefined\pdfgentounicode\pdfgentounicode=1\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\Huge\scshape Jiyoung Kim} 
+        % SUBHEADING
+        \\ 
+        \small
+        % EMAIL
+        \href{mailto:EMAIL}{\raisebox{-0.2\height}\faEnvelope\  \underline{jiyoung.kim4@mail.mcgill.ca}} ~ 
+        % WEBSITE
+        \href{https://jiyoung-cecil-kim.github.io/Jiyoung-Kim/}{\raisebox{-0.2\height}\faGlobe\  \underline{website}}
+    \end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Research Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+    \resumeSubHeadingListStart%
+\resumeSubheading{Ph.D Economics}{Mcgill university}{}{Fall 2021-}    
+\resumeSubheading{M.A Economics}{Yonsei university}{}{Mar 2019-Feb 2021}                
+\resumeSubheading{B.A Quantitative Risk Management and Economics}{Yonsei university}{}{Mar 2014-Aug 2018}                
+            \resumeSubHeadingListEnd%
+\section{Working Papers}
+    \resumeSubHeadingListStart%
+\resumeSubheading{Firm-level Workforce Composition and Firm Dynamics}{}{Jiyoung Kim}{}   
+\resumeSubheading{Predicting Labor Force Types}{}{Rui Castro, Jiyoung Kim, Fabian Lange, Jérôme Larivière and Markus Poschke}{}             
+\resumeSubHeadingListEnd%
+
+
+\section{Research Experience}
+    \resumeSubHeadingListStart%
+    
+        % COMPANY 1
+        
+\resumeSubheading{Research Assistant: Predicting Labor Force Types.}{Mcgill university}{}{Summer 2023-}
+            % POSITION 1
+            \resumeItemListStart%
+            \resumeItem{Cluster workers into types given high-frequency prime age labor market experiences.}
+                \resumeItem{Uses long panel survey data: NLSY (National Longitudinal Survey of Youth)}
+            \resumeItem{Predicting the weakly attached types given early age information, demographics, education, health, labor market experience, etc. }
+            \resumeItem{Joint work with Rui Castro, Fabian Lange, Jérôme Larivière and Markus Poschke}
+            \resumeItemListEnd%
+        \resumeSubheading{Research Assistant}{KDI (Korean Development Institution)}{}{August 2014- April 2016}
+            % POSITION 1
+            \resumeItemListStart%
+                \resumeItem{Knowledge Sharing Program (KSP)}
+                \resumeItem{Economic policy consulting program with Belize}
+            \resumeItemListEnd%
+        
+    \resumeSubHeadingListEnd%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Presentation Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Presentations}
+    \resumeSubHeadingListStart
+    
+        % COMPANY 1
+        \resumeSubheading
+        {Canadian Economics Association }{Toronto Metropolitan University}
+            % POSITION 1
+            {}{31,May, 2024}
+       
+          \resumeSubheading
+        {CIREQ Lunch Seminar}{McGill University}
+            % POSITION 1
+            {}{4,Nov, 2025}  
+          \resumeSubheading
+        {19th QICSS Emerging Excellence Conference}{IRNS}
+            % POSITION 1
+            {}{30,Apr, 2026}    
+\resumeSubheading
+        {20th CIREQ-CIRANO PhD Students' Conference }{CIRANO}
+            % POSITION 1
+            {}{19, May, 2026}  
+          \resumeSubheading
+        {Canadian Economics Association }{Simon Fraser University}
+            % POSITION 1
+            {}{29,May, 2026}
+          \resumeSubheading{T2M Student Workshop Program }{HEC Montreal}{}{1, June, 2026}
+    \resumeSubHeadingListEnd%
+    \section{Teaching Experience}
+    \resumeSubHeadingListStart%
+    
+        % COMPANY 1
+        \resumeSubheading{Econ 208: Microeconomics Analysis \& Application}{Mcgill university}{TA}{Fall 2022}
+
+        \resumeSubheading{Econ 450: Advanced Economic Theory 1}{Mcgill university}{TA}{Winter 2023,2024,2025,2026}
+            
+       \resumeSubheading{Econ 332: Macroeconomic Theory-Majors 1}{Mcgill university}{TA}{Fall 2024}
+         \resumeSubheading{Econ 209:Macroeconomic Theory-Majors 1}{Mcgill university}{TA}{Fall 2025}
+        \resumeSubheading{Econ 354: Macroeconomics-Honours 2}{Mcgill university}{TA}{Winter 2026}
+            
+    \resumeSubHeadingListEnd%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects} 
+    \resumeSubHeadingListStart%
+
+        % Project 1
+        \resumeProjectHeading{Economic Theory and application in Python}{}
+        \resumeItemListStart%
+            \resumeItem{\href{https://medium.com/@financial-engineering/economic-theory-hopenhayn-model-python-75780d264731}{\underline{Hopenhayn Model}}}
+        \resumeItem{\href{https://medium.com/@financial-engineering/stats-how-do-you-bootstrap-ii-7867a584a96a}{\underline{Bootstrap}}}
+        \resumeItem{\href{https://medium.com/@financial-engineering/financial-engineering-two-versions-of-delta-hedging-e8d385c43f9}{\underline{Delta hedging}}}
+              \resumeItem{\href{https://medium.com/@financial-engineering/behind-the-ml-principal-component-analysis-ii-81c588cebc49}{\underline{Principal component analysis}}}
+        \resumeItemListEnd%
+
+        
+        \resumeProjectHeading{Deep learning theory and application in python}{}
+        \resumeItemListStart%
+           \resumeItem{\href{https://medium.com/analytics-vidhya/tensorflow-2-0-save-and-restore-models-4708ed3f0d8}{\underline{Basic of DL models in Tensorflow}}}
+           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-load-images-to-tensorflow-897b8b067fc28}{\underline{Image analysis in Tensorflow}}}
+           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-word-embeddings-part3-964b2b9caf94}{\underline{Text analysis in Tensorflow}}}
+
+           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-variational-auto-encoder-vae-part-i-a1c434ba306c}{\underline{Variational Autoencoder in Tensorflow}}}
+        \resumeItemListEnd%
+        
+    \resumeSubHeadingListEnd%
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+
+    \vspace{-7pt}
+    \begin{itemize}
+    [leftmargin=0.15in, label={}]\small{\item{
+        % LANGUAGES
+        \textbf{Languages}{: Korean, English, Spanish} \\
+        % TOOLS
+        \textbf{Developer Tools}{: Python, MATLAB, STATA} \\
+        % TECHNOLOGIES
+        \textbf{Technologies/Frameworks}{: Tensorflow, Keras} \\}}
+    \end{itemize}
+\end{document}
