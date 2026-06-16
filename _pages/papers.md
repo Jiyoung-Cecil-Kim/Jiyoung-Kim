@@ -7,13 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-<style>.page__title { display: none; }</style>
 
 ## Working Papers
-
+---
 **[Predicting Labor Force Types]({{ base_path }}/files/predicting_labor_force_types.pdf)**
 <small>with Rui Castro, Fabian Lange, Jérôme Larivière and Markus Poschke.</small>
-
 <details>
   <summary><strong>Abstract</strong></summary>
   <p markdown="1" style="margin-left: 1.5em;">
@@ -21,6 +19,5 @@ A small group of people accounts for a large majority of flows between labor mar
   </p>
 </details>
 
----
 
 
