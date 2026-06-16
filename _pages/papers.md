@@ -7,10 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
+<style>.page__title { display: none; }</style>
+
 ## Working Papers
 
 **[Predicting Labor Force Types]({{ base_path }}/files/predicting_labor_force_types.pdf)**
-
 <small>with Rui Castro, Fabian Lange, Jérôme Larivière and Markus Poschke.</small>
 
 <details>
