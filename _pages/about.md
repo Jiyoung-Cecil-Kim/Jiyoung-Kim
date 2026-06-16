@@ -8,6 +8,6 @@ redirect_from:
 ---
 Welcome to my website! 
 
-I am job market candidate for 2026Fall- at McGill University. 
+I am job market candidate for 2026 Fall- at McGill University. 
 
-My research interests lie at the intersection of macroeconomics and labor economics, with a focus on how worker heterogeneity, skill quality, and labor market outcomes shape aggregate macroeconomic dynamics. 
+My research interests lie at the intersection of macroeconomics and labor economics, with a focus on how worker heterogeneity shapes their labor market outcomes and aggregate macroeconomic dynamics. 

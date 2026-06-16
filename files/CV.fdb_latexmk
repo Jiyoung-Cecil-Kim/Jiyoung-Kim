@@ -1,13 +1,27 @@
 # Fdb version 4
-["xdvipdfmx"] 0 "CV.xdv" "CV.pdf" "CV" 0 -1
-  "CV.xdv" 0 -1 0 "xelatex"
+["xdvipdfmx"] 1781638654.75212 "CV.xdv" "CV.pdf" "CV" 1781638655.66175 0
+  "CV.xdv" 1781638654.66859 31208 3a8e9d90470981418204ef9fb36fee1e "xelatex"
   (generated)
   "CV.pdf"
   (rewritten before read)
-["xelatex"] 1780680714.18303 "/Users/JIYOUNGKIM/Desktop/McGill/Website/Jiyoung-Kim/files/CV.tex" "CV.xdv" "CV" 1780680716.00181 2
-  "/Users/JIYOUNGKIM/Desktop/McGill/Website/Jiyoung-Kim/files/CV.tex" 1780680711.82093 8965 3215e72f03901f8a1af21a98a142f06a ""
+["xelatex"] 1781638652.54992 "/Users/JIYOUNGKIM/Desktop/McGill/Website/Jiyoung-Kim/files/CV.tex" "CV.xdv" "CV" 1781638655.65917 0
+  "/Users/JIYOUNGKIM/Desktop/McGill/Website/Jiyoung-Kim/files/CV.tex" 1781638650.33594 9049 edd367e095fc188a8bd92d8c7da119c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136768653 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136768653 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1739572459 143388 b008e1666520ff43d0878397f2926242 ""
@@ -23,7 +37,6 @@
   "/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576878844 5412 d5a2436094cd7be85769db90f29250a6 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1701727651 17865 1a9bd36b4f98178fa551aca822290953 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty" 1576015897 19007 15924f7228aca6c6d184b115f4baa231 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex" 1353199370 216747 92ec6cf8e39216b4894417b5aa6f057a ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1593379760 20089 80423eac55aa175305d35b49e04fe23b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty" 1575152242 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1576624663 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
@@ -33,6 +46,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1738182759 2378 14b657ee5031da98cf91648f19642694 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/latexsym.sty" 1738182759 2853 45a98f589f86476fadff19a8edda5ea9 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo" 1738182759 8464 e73911cdcc738e82d6adccd28e654bb1 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd" 1738182759 2233 b5d3114ec3e0616e658a8e7b74e810f1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty" 1738874546 52272 63d293bc0d496619edb57585740861a2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1739306980 46850 d87daedc2abdc653769a6f1067849fe0 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1739048179 31715 19e60610b63819fe670dfa1cd84a4e94 ""
@@ -71,10 +85,12 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV.aux" 0 -1 0 "xelatex"
-  "CV.tex" 1780680711.82093 8965 3215e72f03901f8a1af21a98a142f06a ""
+  "CV.aux" 1781638654.66638 1032 9d5469a7895f050ff88311e9a8e01b2f "xelatex"
+  "CV.out" 1781638654.66793 851 dda97a2970c873c634fa0f5e52157a7e "xelatex"
+  "CV.tex" 1781638650.33594 9049 edd367e095fc188a8bd92d8c7da119c8 ""
   (generated)
   "CV.aux"
   "CV.log"
+  "CV.out"
   "CV.xdv"
   (rewritten before read)
