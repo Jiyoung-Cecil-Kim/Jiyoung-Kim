@@ -52,6 +52,14 @@
     {#1 \vspace{-3pt}}
   }
 }
+% Bullet item with a right-flush date (used for teaching / presentations)
+\newcommand{\resumeItemDate}[2]{%
+  \item\small\begin{tabular*}{\linewidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}%
+    #1 & #2%
+  \end{tabular*}%
+}
+\newcommand{\resumeDateListStart}{\vspace{-6pt}\begin{itemize}[leftmargin=0.25in,itemsep=2pt,parsep=0pt,topsep=2pt,partopsep=0pt]}
+\newcommand{\resumeDateListEnd}{\end{itemize}\vspace{-2pt}}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-3pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -78,139 +86,138 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+% Plain indented block (used for fields, dissertation, abstract, contact tables)
+\newcommand{\resumeBlockStart}{\vspace{-4pt}\begin{itemize}[leftmargin=0.15in, label={}]\small\item}
+\newcommand{\resumeBlockEnd}{\end{itemize}\vspace{-4pt}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
     \begin{center}
         % NAME
-        {\Huge\scshape Jiyoung Kim} 
-        % SUBHEADING
-        \\ 
+        {\Huge\scshape Jiyoung Kim}
+        \\ \vspace{3pt}
         \small
+        McGill University, Department of Economics \\
+        Leacock Building, 855 Sherbrooke St. West, Montreal, QC H3A 2T7, Canada \\
+        \vspace{2pt}
         % EMAIL
-        \href{mailto:EMAIL}{\raisebox{-0.2\height}\faEnvelope\  \underline{jiyoung.kim4@mail.mcgill.ca}} ~ 
+        \href{mailto:jiyoung.kim4@mail.mcgill.ca}{\raisebox{-0.2\height}\faEnvelope\  \underline{jiyoung.kim4@mail.mcgill.ca}} ~
         % WEBSITE
         \href{https://jiyoung-cecil-kim.github.io/Jiyoung-Kim/}{\raisebox{-0.2\height}\faGlobe\  \underline{website}}
     \end{center}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Placement Directors  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Placement Directors}
+\resumeBlockStart
+    \begin{tabular*}{0.95\textwidth}{@{}l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}r@{}}
+        Prof. Rui Castro       & \href{mailto:rui.castro@mcgill.ca}{\underline{rui.castro@mcgill.ca}}           & (514) 398-1226 \\
+        Prof. Kensuke Sakamoto & \href{mailto:kensuke.sakamoto@mcgill.ca}{\underline{kensuke.sakamoto@mcgill.ca}} & \\
+    \end{tabular*}
+\resumeBlockEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Research Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Education}
     \resumeSubHeadingListStart%
-\resumeSubheading{Ph.D Economics}{Mcgill university}{}{Fall 2021-}    
-\resumeSubheading{M.A Economics}{Yonsei university}{}{Mar 2019-Feb 2021}                
-\resumeSubheading{B.A Quantitative Risk Management and Economics}{Yonsei university}{}{Mar 2014-Aug 2018}                
-            \resumeSubHeadingListEnd%
-\section{Working Papers}
-    \resumeSubHeadingListStart%
-\resumeSubheading{Firm-level Workforce Composition and Firm Dynamics}{}{Jiyoung Kim}{}   
-\resumeSubheading{\href{https://www.nber.org/papers/w35295}{\underline{\color{blue}{Predicting Labor Force Types}}}}{}{Rui Castro, Jiyoung Kim, Fabian Lange, Jérôme Larivière and Markus Poschke}{}             
-\resumeSubHeadingListEnd%
+        \resumeSubheading{Ph.D. Economics}{McGill University}{expected 2027}{Fall 2021--}
+        \resumeSubheading{M.A. Economics}{Yonsei University}{}{Mar 2019--Feb 2021}
+        \resumeSubheading{B.A. Quantitative Risk Management and Economics}{Yonsei University}{}{Mar 2014--Aug 2018}
+    \resumeSubHeadingListEnd%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Fields  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fields of Specialization}
+\resumeBlockStart
+    \textbf{Primary:}   Macroeconomics \\
+    \textbf{Secondary:} Labor Economics
+\resumeBlockEnd
 
-\section{Research Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Dissertation  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Dissertation}
+\resumeBlockStart
+    \textit{Firm-level Workforce Composition and Firm Dynamics} \\
+    Supervisors: Prof. Rui Castro, Prof. Markus Poschke
+\resumeBlockEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Job Market Paper  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Job Market Paper}
+\resumeBlockStart
+    ``Firm-level Workforce Composition and Firm Dynamics''
+    \vspace{6pt}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%  >>> PASTE YOUR ABSTRACT BELOW (replace this placeholder) <<<
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Using Canadian employer--employee matched data, this paper shows the importance of workforce quality for firms' productivity and performance.
+By looking at how firms adjust their workforce composition over the life-cycle, this paper highlights the importance of initial workforce quality for the firms' future.
+Firms start with a small but high-quality workforce, then expand with lower quality workers, diluting workforce quality.
+While firms share the trend, longer surviving firms always have a better workforce than those that exit earlier.
+To explain the findings, I develop a firm dynamics model with endogenous productivity growth and choice over the mix of heterogeneous workers.
+Only some high quality workers, `leaders', have the capability to build organizational capital, an intangible asset that raises productivity. 
+As firms enter with little organizational capital, leaders are most neede when firms are young. 
+Once enough of organizational capital is accumulated, firms scale up with the lower quality `regular workers', who produce based on the foundation the leaders have laid.
+I use the calibrated model to quantify the importance of leaders for the aggregate economy. I find that a one percent increase in the wage of leaders lowers long-run aggregate productivity by 0.6\%, of which 80\% comes from the forgone opportunity to accumulate organizational capital.
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%  >>> END OF ABSTRACT <<<
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resumeBlockEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Other Research Papers  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Other Research Papers}
+\vspace{-6pt}
+\begin{itemize}[leftmargin=0.25in,itemsep=3pt,parsep=0pt,topsep=2pt,partopsep=0pt]\small
+    \item ``\href{https://www.nber.org/papers/w35295}{\underline{\color{blue}{Predicting Labor Force Types}}},'' NBER Working Paper No. 35295, with Rui Castro, Fabian Lange, J\'er\^ome Larivi\`ere and Markus Poschke
+    \item ``Labour Force Histories: From Baby Boomers to Millennials,'' work in progress, with Fabian Lange
+\end{itemize}\vspace{-2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Teaching Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teaching Experience}
+\resumeDateListStart%
+    \resumeItemDate{Teaching Assistant, Econ 354: Macroeconomics --- Honours 2, McGill University}{2026 W}
+    \resumeItemDate{Teaching Assistant, Econ 450: Advanced Economic Theory 1, McGill University}{2023, 2024, 2025, 2026 W; 2026 F}
+    \resumeItemDate{Teaching Assistant, Econ 713: Macroeconomic Theory 2, McGill University}{2025 W}
+    \resumeItemDate{Teaching Assistant, Econ 209: Macroeconomic Analysis \& Applications, McGill University}{2025 Summer, 2025 F}
+    \resumeItemDate{Teaching Assistant, Econ 332: Macroeconomic Theory --- Majors 1, McGill University}{2024 F}
+    \resumeItemDate{Teaching Assistant, Econ 208: Microeconomic Analysis \& Applications, McGill University}{2022 F}
+\resumeDateListEnd%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Research Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research and Relevant Work Experience}
     \resumeSubHeadingListStart%
-    
-        % COMPANY 1
-        
-\resumeSubheading{Research Assistant: Predicting Labor Force Types.}{Mcgill university}{}{Summer 2023-}
-            % POSITION 1
+        \resumeSubheading{Research Assistant}{Korea Development Institute (KDI)}{\href{https://www.ksp.go.kr/english/pageView/info-eng/45?listCount=10\&page=0\&srchText=\&nationCd=BZ}{\underline{\color{blue}{Knowledge Sharing Program (KSP)}}}}{Aug 2014--Apr 2016}
             \resumeItemListStart%
-            \resumeItem{Cluster workers into types given high-frequency prime age labor market experiences.}
-                \resumeItem{Uses long panel survey data: NLSY (National Longitudinal Survey of Youth)}
-            \resumeItem{Predicting the weakly attached types given early age information, demographics, education, health, labor market experience, etc. }
-            \resumeItem{Joint work with Rui Castro, Fabian Lange, Jérôme Larivière and Markus Poschke}
+                \resumeItem{Economic policy consulting program with the Government of Belize}
             \resumeItemListEnd%
-        \resumeSubheading{Research Assistant}{KDI (Korean Development Institution)}{}{August 2014- April 2016}
-            % POSITION 1
-            \resumeItemListStart%
-                \resumeItem{Knowledge Sharing Program (KSP)}
-                \resumeItem{Economic policy consulting program with Belize}
-            \resumeItemListEnd%
-        
     \resumeSubHeadingListEnd%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Presentation Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Presentations}
-    \resumeSubHeadingListStart
-    
-        % COMPANY 1
-        \resumeSubheading
-        {Canadian Economics Association }{Toronto Metropolitan University}
-            % POSITION 1
-            {}{31,May, 2024}
-       
-          \resumeSubheading
-        {CIREQ Lunch Seminar}{McGill University}
-            % POSITION 1
-            {}{4,Nov, 2025}  
-          \resumeSubheading
-        {19th QICSS Emerging Excellence Conference}{IRNS}
-            % POSITION 1
-            {}{30,Apr, 2026}    
-\resumeSubheading
-        {20th CIREQ-CIRANO PhD Students' Conference }{CIRANO}
-            % POSITION 1
-            {}{19, May, 2026}  
-          \resumeSubheading
-        {Canadian Economics Association }{Simon Fraser University}
-            % POSITION 1
-            {}{29,May, 2026}
-          \resumeSubheading{T2M Student Workshop Program }{HEC Montreal}{}{1, June, 2026}
-    \resumeSubHeadingListEnd%
-    \section{Teaching Experience}
-    \resumeSubHeadingListStart%
-    
-        % COMPANY 1
-        \resumeSubheading{Econ 208: Microeconomics Analysis \& Application}{Mcgill university}{TA}{Fall 2022}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Presentations  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conference and Seminar Presentations}
+\resumeDateListStart%
+    \resumeItemDate{T2M Student Workshop Program, HEC Montreal}{June 2026}
+    \resumeItemDate{Canadian Economics Association, Simon Fraser University}{May 2026}
+    \resumeItemDate{20th CIREQ--CIRANO PhD Students' Conference, CIRANO}{May 2026}
+    \resumeItemDate{19th QICSS Emerging Excellence Conference, INRS}{April 2026}
+    \resumeItemDate{CIREQ Lunch Seminar, McGill University}{November 2025; Aug, Oct 2026}
+    \resumeItemDate{Canadian Economics Association, Toronto Metropolitan University}{May 2024}
+\resumeDateListEnd%
 
-        \resumeSubheading{Econ 450: Advanced Economic Theory 1}{Mcgill university}{TA}{Winter 2023,2024,2025,2026}
-            
-       \resumeSubheading{Econ 332: Macroeconomic Theory-Majors 1}{Mcgill university}{TA}{Fall 2024}
-         \resumeSubheading{Econ 209:Macroeconomic Theory-Majors 1}{Mcgill university}{TA}{Fall 2025}
-        \resumeSubheading{Econ 354: Macroeconomics-Honours 2}{Mcgill university}{TA}{Winter 2026}
-            
-    \resumeSubHeadingListEnd%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Languages  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Languages}
+\resumeBlockStart
+    Korean (native), English (fluent), Spanish (advanced)
+\resumeBlockEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Personal Projects} 
-    \resumeSubHeadingListStart%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Computational Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Computational Skills}
+\resumeBlockStart
+    Python, MATLAB, Stata, TensorFlow, Keras
+\resumeBlockEnd
 
-        % Project 1
-        \resumeProjectHeading{Economic Theory and application in Python}{}
-        \resumeItemListStart%
-            \resumeItem{\href{https://medium.com/@financial-engineering/economic-theory-hopenhayn-model-python-75780d264731}{\underline{Hopenhayn Model}}}
-        \resumeItem{\href{https://medium.com/@financial-engineering/stats-how-do-you-bootstrap-ii-7867a584a96a}{\underline{Bootstrap}}}
-        \resumeItem{\href{https://medium.com/@financial-engineering/financial-engineering-two-versions-of-delta-hedging-e8d385c43f9}{\underline{Delta hedging}}}
-              \resumeItem{\href{https://medium.com/@financial-engineering/behind-the-ml-principal-component-analysis-ii-81c588cebc49}{\underline{Principal component analysis}}}
-        \resumeItemListEnd%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  References  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{References}
+\resumeBlockStart
+    \begin{tabular*}{0.98\textwidth}{@{}l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}r@{}}
+        Prof. Rui Castro     & McGill University & \href{mailto:rui.castro@mcgill.ca}{\underline{rui.castro@mcgill.ca}}         & (514) 398-1226 \\
+        Prof. Markus Poschke & McGill University & \href{mailto:markus.poschke@mcgill.ca}{\underline{markus.poschke@mcgill.ca}} & (514) 398-1233 \\
+    \end{tabular*}
+\resumeBlockEnd
 
-        
-        \resumeProjectHeading{Deep learning theory and application in python}{}
-        \resumeItemListStart%
-           \resumeItem{\href{https://medium.com/analytics-vidhya/tensorflow-2-0-save-and-restore-models-4708ed3f0d8}{\underline{Basic of DL models in Tensorflow}}}
-           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-load-images-to-tensorflow-897b8b067fc28}{\underline{Image analysis in Tensorflow}}}
-           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-word-embeddings-part3-964b2b9caf94}{\underline{Text analysis in Tensorflow}}}
-
-           \resumeItem{\href{https://medium.com/@financial-engineering/tensorflow-2-0-variational-auto-encoder-vae-part-i-a1c434ba306c}{\underline{Variational Autoencoder in Tensorflow}}}
-        \resumeItemListEnd%
-        
-    \resumeSubHeadingListEnd%
-    
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Technical Skills}
-
-    \vspace{-7pt}
-    \begin{itemize}
-    [leftmargin=0.15in, label={}]\small{\item{
-        % LANGUAGES
-        \textbf{Languages}{: Korean, English, Spanish} \\
-        % TOOLS
-        \textbf{Developer Tools}{: Python, MATLAB, STATA} \\
-        % TECHNOLOGIES
-        \textbf{Technologies/Frameworks}{: Tensorflow, Keras} \\}}
-    \end{itemize}
 \end{document}
