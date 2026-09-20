@@ -31,7 +31,7 @@ A small group of people accounts for a large majority of flows between labor mar
 </details>
 
 ## Work in Progress 
--- 
+---
 **Labor market Histories** 
 <small>with Castro, Lange and Poschke.</small>
 
