@@ -13,10 +13,10 @@ author_profile: true
 **Firm-level Workforce Composition and Firm Dynamics**
 <small>Jiyoung Kim.</small>
 <details>
-  <summary><strong>Abstract</strong></summary>
-  <p markdown="1" style="margin-left: 1.5em;">
+<summary><strong>Abstract</strong></summary>
+<p markdown="1" style="margin-left: 1.5em;">
 Using Canadian employer–employee matched data, this paper shows the importance of workforce quality for firms’ productivity and performance. By looking at how firms adjust their workforce composition over the life-cycle, I document how initial workforce quality shapes a firm’s future. Firms start with a small but high-quality workforce, then expand with lower-quality workers, diluting workforce quality. While firms share this trend, longer surviving firms maintain a better workforce than those that exit earlier. To explain the findings, I develop a firm dynamics model with endogenous productivity growth and choice over the mix of heterogeneous workers. Among the workers, only some high-quality workers, ‘leaders’, have the capability to build organizational capital, an intangible asset that raises productivity. As firms enter with little organizational capital, leaders are most needed when firms are young. Once enough organizational capital is accumulated, firms scale up with the lower-quality ‘regular workers’, who produce based on the foundation the leaders have laid. I use the calibrated model to quantify the importance of leaders for the aggregate economy. I find that a 1% increase in the wage of leaders lowers long-run aggregate productivity by 0.6%. The wage increase hits young firms hardest, depriving them of the opportunity to accumulate organizational capital. The forgone initial accumulation compounds into a permanent loss in firm-level productivity and accounts for 80% of the long-run aggregate productivity loss.
-  </p>
+</p>
 </details>
 
 ## Working Papers
