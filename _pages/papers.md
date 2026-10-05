@@ -23,9 +23,9 @@ Firms tend to start with a small, high-quality workforce and grow by expanding i
 To explain these findings, I develop a firm dynamics model in which firms could choose to improve firm-level productivity, given their productivity and age, by accumulating organizational capital with high-quality workers. 
 The model is calibrated to match the observed patterns of workforce quality and firm performance. 
 I then use it to quantify the consequences for Canadian firms and aggregate productivity of an increase in the cost of hiring the high-quality workers. 
-I find that a 1\% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.6\%. 
+I find that a 1% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.6%. 
 Young firms are hit the hardest: the shock deprives them of the opportunity to accumulate organizational capital, which compounds into permanent losses in firm-level productivity.
-Reduced accumulation of organizational capital accounts for 80\% of the long-run aggregate productivity loss.
+Reduced accumulation of organizational capital accounts for 80% of the long-run aggregate productivity loss.
 
 </p>
 </details>
