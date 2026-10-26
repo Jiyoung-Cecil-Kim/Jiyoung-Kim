@@ -15,18 +15,20 @@ author_profile: true
 <details>
 <summary><strong>Abstract</strong></summary>
 <p markdown="1" style="margin-left: 1.5em;">
-This paper studies how a firm's choice of workforce quality differs by firm performance and evolves over a firm's life-cycle and what the workforce composition implies for firm and aggregate productivity. 
-Using Canadian matched employer-employee data, I measure a firm's workforce quality as the average worker-specific wage component, AKM worker fixed effects, of its employees, 
-and take a firm's surviving year as an indicator for firm performance.
+This paper studies how a firm's choice of workforce quality differs by firm performance and how it evolves over a firm's life-cycle 
+and then traces the implications for firm and aggregate productivity. 
+Using Canadian matched employer--employee data, I measure a firm's workforce quality as the average worker-specific wage component, AKM worker fixed effects, of its employees, 
+and take a firm's total years of operation as an indicator for firm performance. 
 I uncover two facts: first, conditional on age, longer-lived firms have better workers; second, conditional on longevity, workforce quality declines as firms age. 
-Firms tend to start with a small, high-quality workforce and grow by expanding into lower-quality workers. 
-To explain these findings, I develop a firm dynamics model in which firms could choose to improve firm-level productivity, given their productivity and age, by accumulating organizational capital with high-quality workers. 
+Firms therefore tend to start with a small, high-quality workforce and grow by expanding into lower-quality workers, with better firms hiring better workers. 
+To explain these findings, I develop a firm dynamics model in which firms differ by productivity type. 
+Conditional on the type, firms may improve firm-level productivity, by accumulating organizational capital with high-quality workers. 
 The model is calibrated to match the observed patterns of workforce quality and firm performance. 
-I then use it to quantify the consequences for Canadian firms and aggregate productivity of an increase in the cost of hiring the high-quality workers. 
-I find that a 1% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.6%. 
-Young firms are hit the hardest: the shock deprives them of the opportunity to accumulate organizational capital, which compounds into permanent losses in firm-level productivity.
-Reduced accumulation of organizational capital accounts for 80% of the long-run aggregate productivity loss.
-
+I then use it to quantify the consequences for Canadian firms and aggregate productivity of an increase in the cost of hiring high-quality workers. 
+I find that a 1\% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.6\%.
+In Canada, the wage of top 1\% workers compared to median workers has increased by approximately 10\% in the last two decades, implying 6\% loss in aggregate productivity if it remains so. 
+Young firms are hit the hardest: the shock deprives them of the opportunity to accumulate organizational capital, which compounds into permanent losses in firm-level productivity. 
+Reduced accumulation of organizational capital accounts for 80\% of the long-run aggregate productivity loss. 
 </p>
 </details>
 
@@ -45,7 +47,9 @@ A small group of people accounts for a large majority of flows between labor mar
 ---
 **Labour Market Histories** 
 <small>with Castro, Lange and Poschke.</small>
-
-
-
+<details>
+  <summary><strong>Abstract</strong></summary>
+  <p markdown="1" style="margin-left: 1.5em;">
+We compare labour force attachment between ages 25 and 35 across two generations of Americans: late baby-boomers (NLSY79) and early millennials (NLSY97). Among men, time spent in non-employment increased from 12.5 to 17.6 percent. About half of this increase reflects a shift in the composition of men across attachment types, identified through $k$-means clustering. The share of weakly attached men nearly doubled, from 6.6 to 12.9 per cent, while the share cycling frequently between employment and non-employment fell. The remainder reflects more non-employment within the more attached types. Despite being a larger group among millennials, weakly attached men remain disadvantaged, with high rates of incarceration and even wider gaps in schooling and health compared to other men. Among women, time spent in non-employment fell slightly, from 29.2 to 27.4 per cent, driven by a broad shift
+of the population towards stronger labour market attachment. Weak attachment appears to have stronger ties to poor health among early millennial women.
 
