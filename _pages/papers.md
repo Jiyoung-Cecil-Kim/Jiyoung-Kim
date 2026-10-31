@@ -15,8 +15,7 @@ author_profile: true
 <details>
 <summary><strong>Abstract</strong></summary>
 <p markdown="1" style="margin-left: 1.5em;">
-
-This paper studies how a firm's choice of workforce quality differs by firm performance and how it evolves over a firm's life-cycle 
+dies how a firm's choice of workforce quality differs by firm performance and how it evolves over a firm's life-cycle 
 and then traces the implications for firm and aggregate productivity. 
 Using Canadian matched employer--employee data, I measure a firm's workforce quality as the average worker-specific wage component, AKM worker fixed effects, of its employees, 
 and take a firm's total years of operation as an indicator for firm performance. 
@@ -26,11 +25,10 @@ To explain these findings, I develop a firm dynamics model in which firms differ
 Conditional on the type, firms may improve firm-level productivity, by accumulating organizational capital with high-quality workers. 
 The model is calibrated to match the observed patterns of workforce quality and firm performance. 
 I then use it to quantify the consequences for Canadian firms and aggregate productivity of an increase in the cost of hiring high-quality workers. 
-I find that a 1% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.6%.
-In Canada, the wage of top 1% workers compared to median workers has increased by approximately 10% in the last two decades, implying 6\% loss in aggregate productivity. 
+I find that a 1% increase in the wages of high-quality workers lowers long-run aggregate productivity by 0.5%.
+In Canada, the wage of top 1% workers compared to median workers has increased by approximately 10% in the last two decades, implying 5% loss in aggregate productivity. 
 Young firms are hit the hardest: the shock deprives them of the opportunity to accumulate organizational capital, which compounds into permanent losses in firm-level productivity. 
 Reduced accumulation of organizational capital accounts for 80% of the long-run aggregate productivity loss. 
-
 </p>
 </details>
 
@@ -48,7 +46,7 @@ A small group of people accounts for a large majority of flows between labor mar
 ## Work in Progress
 ---
 **Late Baby-Boomers and Early Millennials In and Out of Work** 
-<small>with Castro, Lange and Poschke.</small>
+<small>submitted to <em>Canadian Journal of Economics</em> as part of the 2026 Innis Lecture with Castro, Lange, and Poschke</small>
 <details>
   <summary><strong>Abstract</strong></summary>
   <p markdown="1" style="margin-left: 1.5em;">
