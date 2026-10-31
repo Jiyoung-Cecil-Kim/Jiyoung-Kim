@@ -15,13 +15,11 @@ author_profile: true
 <details>
 <summary><strong>Abstract</strong></summary>
 <p markdown="1" style="margin-left: 1.5em;">
-dies how a firm's choice of workforce quality differs by firm performance and how it evolves over a firm's life-cycle 
+
+This paper studies how a firm's choice of workforce quality differs by firm performance and how it evolves over a firm's life-cycle 
 and then traces the implications for firm and aggregate productivity. 
-Using Canadian matched employer--employee data, I measure a firm's workforce quality as the average worker-specific wage component, AKM worker fixed effects, of its employees, 
-and take a firm's total years of operation as an indicator for firm performance. 
-I uncover two facts: first, longer-lived firms have better workers at any age than shorter-lived firms; second, conditional on longevity, workforce quality declines as firms age. 
-While better firms hire better workers, firms tend to start with a small, high-quality workforce and grow by expanding into lower-quality workers. 
-To explain these findings, I develop a firm dynamics model in which firms differ by productivity type. 
+Using Canadian matched employer--employee data, I measure a firm's workforce quality as the average worker-specific wage component, AKM worker fixed effects, of its employees, and take a firm's total years of operation as an indicator for firm performance. 
+I uncover two facts: first, longer-lived firms have better workers at any age than shorter-lived firms; second, conditional on longevity, workforce quality declines as firms age. While better firms hire better workers, firms tend to start with a small, high-quality workforce and grow by expanding into lower-quality workers. To explain these findings, I develop a firm dynamics model in which firms differ by productivity type. 
 Conditional on the type, firms may improve firm-level productivity, by accumulating organizational capital with high-quality workers. 
 The model is calibrated to match the observed patterns of workforce quality and firm performance. 
 I then use it to quantify the consequences for Canadian firms and aggregate productivity of an increase in the cost of hiring high-quality workers. 
