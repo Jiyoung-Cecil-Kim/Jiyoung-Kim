@@ -91,15 +91,6 @@
     }
   }
 
-  /* Paper titles: bold and colored is enough without the underline */
-  strong > a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   /* Paper entries: abstract stays with its title, clear gap to the next paper */
   p + details {
     margin-top: -0.8em;

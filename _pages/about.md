@@ -18,7 +18,7 @@ My research interests lie at the intersection of macroeconomics and labor econom
 I am especially interested in the workforce composition firms choose over their life cycle: which type of workers firms hire as they age and grow. 
 My research focuses on how the workforce interacts with firm dynamics and its implication on aggregate productivity.
 
-Here is my [CV].({{ base_path }}/files/CV.pdf){:target="_blank" rel="noopener"}
+Here is my [CV]({{ base_path }}/files/CV.pdf){:target="_blank" rel="noopener"}.
 
 ## Job Market Paper
 **[Firm-level Workforce Composition and Firm Dynamics](https://drive.google.com/file/d/1TuwU3-1oth3KXf0yUwM42nrjXf1KTsFb/view?usp=sharing)**
