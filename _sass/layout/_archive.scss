@@ -15,9 +15,16 @@
   }
 
   a {
+    color: var(--global-content-link-color, var(--global-link-color));
     text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:visited {
+      color: var(--global-content-link-color, var(--global-link-color-visited));
+    }
 
     &:hover {
+      color: var(--global-content-link-color-hover, var(--global-link-color-hover));
       text-decoration: underline;
 
       img {
