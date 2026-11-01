@@ -32,6 +32,25 @@
       }
     }
   }
+
+  /* Paper titles: bold and colored is enough, the underline reads as a second
+     rule under the section heading */
+  strong > a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* Paper entries: abstract stays with its title, clear gap to the next paper */
+  p + details {
+    margin-top: -0.8em;
+  }
+
+  details {
+    margin-bottom: 2.5em;
+  }
 }
 
 .archive__subtitle {

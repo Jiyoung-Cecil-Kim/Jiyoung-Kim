@@ -15,9 +15,9 @@ My research interests lie at the intersection of macroeconomics and labor econom
 I am especially interested in the workforce composition firms choose over their life cycle: which type of workers firms hire as they age and grow. 
 My research focuses on how the workforce interacts with firm dynamics and its implication on aggregate productivity.
 
-# Research
+Here is my <p><a href="{{ base_path }}/files/CV.pdf" download>CV</a></p>
+
 ## Job Market Paper
----
 **[Firm-level Workforce Composition and Firm Dynamics](https://drive.google.com/file/d/1TuwU3-1oth3KXf0yUwM42nrjXf1KTsFb/view?usp=sharing)**
 <small>Jiyoung Kim.</small>
 <details>
@@ -39,7 +39,6 @@ Reduced accumulation of organizational capital accounts for 80% of the long-run 
 </details>
 
 ## Working Papers
----
 **[Predicting Labor Force Types](https://www.nber.org/papers/w35295)**
 <small>with Castro, Lange, Larivière and Poschke (June, 2026).</small>
 <details>
