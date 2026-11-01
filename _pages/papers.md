@@ -41,8 +41,6 @@ A small group of people accounts for a large majority of flows between labor mar
   </p>
 </details>
 
-## Work in Progress
----
 **Late Baby-Boomers and Early Millennials In and Out of Work** 
 <small>submitted to <em>Canadian Journal of Economics</em> as part of the 2026 Innis Lecture with Castro, Lange, and Poschke</small>
 <details>
