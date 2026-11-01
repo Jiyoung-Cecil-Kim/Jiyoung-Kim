@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- Keep the page title for the browser tab, search results and the sitemap,
+     but hide the heading on the page itself -->
+<style>.page__title { display: none; }</style>
 
 ## Job Market Paper
 ---
@@ -41,7 +44,7 @@ A small group of people accounts for a large majority of flows between labor mar
   </p>
 </details>
 
-**Late Baby-Boomers and Early Millennials In and Out of Work** 
+**[Late Baby-Boomers and Early Millennials In and Out of Work](https://drive.google.com/file/d/1PmhvrzQd763TlQTLE65VmyXD_z3Wy2b2/view?usp=sharing)** 
 <small>submitted to <em>Canadian Journal of Economics</em> as part of the 2026 Innis Lecture with Castro, Lange, and Poschke</small>
 <details>
   <summary><strong>Abstract</strong></summary>

@@ -180,6 +180,18 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  # LaTeX sources and build artifacts in files/ - publish only the compiled PDFs
+  - files/*.aux
+  - files/*.bak
+  - files/*.bbl
+  - files/*.blg
+  - files/*.fdb_latexmk
+  - files/*.fls
+  - files/*.log
+  - files/*.out
+  - files/*.synctex.gz
+  - files/*.tex
+  - files/*.toc
   - Gemfile
   - Gruntfile.js
   - gulpfile.js

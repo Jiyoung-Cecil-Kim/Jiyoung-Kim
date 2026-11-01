@@ -6,6 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+{% include base_path %}
+
 Welcome to my website! 
 
 I am job market candidate for 2026 Fall- at McGill University. 
@@ -15,7 +18,7 @@ My research interests lie at the intersection of macroeconomics and labor econom
 I am especially interested in the workforce composition firms choose over their life cycle: which type of workers firms hire as they age and grow. 
 My research focuses on how the workforce interacts with firm dynamics and its implication on aggregate productivity.
 
-Here is my <p><a href="{{ base_path }}/files/CV.pdf" download>CV</a></p>
+Here is my [CV].({{ base_path }}/files/CV.pdf){:target="_blank" rel="noopener"}
 
 ## Job Market Paper
 **[Firm-level Workforce Composition and Firm Dynamics](https://drive.google.com/file/d/1TuwU3-1oth3KXf0yUwM42nrjXf1KTsFb/view?usp=sharing)**
@@ -48,7 +51,7 @@ A small group of people accounts for a large majority of flows between labor mar
   </p>
 </details>
 
-**Late Baby-Boomers and Early Millennials In and Out of Work** 
+**[Late Baby-Boomers and Early Millennials In and Out of Work](https://drive.google.com/file/d/1PmhvrzQd763TlQTLE65VmyXD_z3Wy2b2/view?usp=sharing)** 
 <small>submitted to <em>Canadian Journal of Economics</em> as part of the 2026 Innis Lecture with Castro, Lange, and Poschke</small>
 <details>
   <summary><strong>Abstract</strong></summary>
