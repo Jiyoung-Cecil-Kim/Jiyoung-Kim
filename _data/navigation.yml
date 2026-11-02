@@ -8,7 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "CV"
-    url: /cv/
-  - title: "Research"
-    url: /papers/
+  # Hidden for now - uncomment to show these tabs in the header again
+  # - title: "CV"
+  #   url: /cv/
+  # - title: "Research"
+  #   url: /papers/
