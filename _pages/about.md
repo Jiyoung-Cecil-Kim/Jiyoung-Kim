@@ -37,8 +37,9 @@ In the model, firms are also innately heterogeneous in their need for organizati
 I calibrate the model and use it to understand the role of high-quality workers not only at the firm level but also for aggregate productivity.
 In the last two decades, the Canadian economy has been falling behind the U.S., and I quantify whether the increasing cost of high-quality workers could explain the widening productivity gap. 
 In Canada, the wage of top 1% workers relative to median workers has increased by approximately 10%. 
-My model predicts a 1.7% loss in aggregate productivity, which explains 14% of the increased productivity gap.
+My model predicts a 1.7% loss in aggregate productivity in the long run, accounting for 14% of the increased productivity gap.
 Reduced accumulation of organizational capital accounts for 80% of the long-run aggregate productivity loss.
+
 
 </p>
 </details>
